@@ -4,3 +4,11 @@
         font-weight: 300;
       }
 }
+
+@media (max-width: 660px) {
+  .count-particles {
+    margin: 0;
+    margin-top: 90px;
+    font-size: 25px;
+  }
+}

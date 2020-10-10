@@ -5,6 +5,12 @@
       }
 }
 
+@media (max-width: 765px) {
+  .footer-links {
+    margin-bottom: 30px;
+  }  
+}
+
 @media (max-width: 660px) {
   .count-particles {
     margin: 0;

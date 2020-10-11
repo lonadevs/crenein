@@ -39,10 +39,18 @@ $(".function-carousel").owlCarousel({
 
 $(".integration-carousel").owlCarousel({
   autoplay: true,
-  dots: true,
+  dots: true, 
   loop: true,
-  margin: 40,
-  responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+  margin: 50,
+  responsive: { 
+	  0: { 
+		  items: 2, 
+		  dotsEach: 2 
+		}, 
+	  1024: { 
+		  items: 4,
+		  dotsEach: 2 
+		}
   }
 });
 

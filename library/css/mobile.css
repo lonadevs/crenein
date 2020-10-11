@@ -19,6 +19,9 @@
     font-size: 20px;
     top: -16px;
   }
+  .specs {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 660px) {

@@ -11,7 +11,7 @@
 @media (max-width: 765px) {
   .footer-links {
     margin-bottom: 30px;
-  }  
+  }
   .pricing .card h3 {
     font-size: 40px;
   }
@@ -30,8 +30,11 @@
 }
 
 @media (max-width: 570px) {
-    #ispbrain .functions .ul-check li {
-        font-size: 16px;
-        font-weight: 300;
-      }
+  #ispbrain .functions .ul-check li {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .contact .content-rs {
+    display: inline-flex;
+  }
 }

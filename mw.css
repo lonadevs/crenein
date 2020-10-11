@@ -1131,7 +1131,7 @@ xkeyframes
 .pricing .card h6.period {
   font-size: 18px;
   letter-spacing: 1px;
-  margin-top: -30px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 

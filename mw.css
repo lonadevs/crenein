@@ -504,9 +504,7 @@ a {
 }
 
 .soporte .mw-item .content-item .mw-img {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
+  bottom: 0;
 }
 
 .soporte .mw-item .content-item .mw-img img {
@@ -515,7 +513,6 @@ a {
 }
 
 .soporte .mw-item .mw-text {
-  max-width: 250px;
   position: relative;
 }
 

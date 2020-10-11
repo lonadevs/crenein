@@ -22,6 +22,9 @@
   .specs {
     margin-top: 40px;
   }
+  .specs .card .card-header h3.title {
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 660px) {

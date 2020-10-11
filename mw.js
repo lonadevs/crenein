@@ -4,8 +4,9 @@ const navMenu = document.querySelector('.site-navbar ul');
 const navLinks = document.querySelectorAll('.site-navbar a');
 
 // load all event listners
-allEventListners();
+//allEventListners();
 
+/*
 // functions of all event listners
 function allEventListners() {
   // toggler icon click event
@@ -26,6 +27,7 @@ function navLinkClick() {
     navToggler.click();
   }
 }
+*/
 
 // Function carousel
 $(".function-carousel").owlCarousel({

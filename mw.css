@@ -446,16 +446,22 @@ a {
 .contact .icon-globe {
   color: #035492;
   font-size: 25px;
+  width: min-content;
 }
 
 .contact .content-rs {
   display: block;
 }
 
-.contact .content-rs a {
+.contact .content-rs a.social-link {
   color: #666666;
   font-size: 16px;
   margin-left: 18px;
+  font-family: 'Poppins', sans-serif !important;
+  width: min-content;
+  display: inline!important;
+  position: absolute;
+  top: 8px;
 }
 
 /*****************************************

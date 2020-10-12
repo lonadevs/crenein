@@ -976,7 +976,7 @@ h3.title-style {
 }
 
 .timeline ul li:nth-child(odd) div {
-  left: -300px;
+  left: -254px;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -1009,11 +1009,11 @@ h3.title-style {
 }
 
 .timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .timeline ul li.in-view div {

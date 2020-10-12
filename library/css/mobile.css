@@ -1,6 +1,17 @@
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@media screen and (max-width: 1060px) {
+  .timeline ul li:nth-child(even) div {
+    left: 12px;
+    /*250+45-6*/
+  }
+  .timeline ul li:nth-child(odd) div {
+    left: -240px;
+    /*250+45-6*/
+  }
+}
+
 @media screen and (max-width: 990px) {
   .pricing .card h3 {
     font-size: 50px;
@@ -9,15 +20,44 @@
     font-size: 25px;
     top: -22px;
   }
-}
 
-@media screen and (max-width: 900px) {
-  .timeline ul li div {
-    width: 250px;
+  .timeline ul li {
+    width: 100%;
+    background: white;
   }
+
+  .timeline ul li div {
+    width: 300px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .timeline ul li div .content {
+    padding: 10px;
+    background-color: #005299;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .timeline ul li div .content h2 {
+    color: white;
+  }
+
+  .timeline ul li.in-view::after {
+    background: white;
+  }
+
+  .timeline ul li:nth-child(odd) div,
   .timeline ul li:nth-child(even) div {
-    left: -289px;
+    left: 0;
+
     /*250+45-6*/
+  }
+
+  .timeline iframe {
+    width: 100%;
   }
 }
 
@@ -72,5 +112,17 @@
   }
   .contact .content-rs {
     display: inline-flex;
+  }
+  .timeline ul li {
+    margin-left: 0;
+  }
+
+  .timeline ul li:nth-child(odd) div {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  .timeline ul li:nth-child(even) div {
+    transform: translate3d(-10px, 0, 0);
+    left: 0;
   }
 }

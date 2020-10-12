@@ -1,4 +1,7 @@
-@media (max-width: 990px) {
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 990px) {
   .pricing .card h3 {
     font-size: 50px;
   }
@@ -8,7 +11,17 @@
   }
 }
 
-@media (max-width: 765px) {
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 765px) {
   .footer-links {
     margin-bottom: 30px;
   }
@@ -27,7 +40,7 @@
   }
 }
 
-@media (max-width: 660px) {
+@media screen and (max-width: 660px) {
   .count-particles {
     margin: 0;
     margin-top: 90px;
@@ -35,7 +48,24 @@
   }
 }
 
-@media (max-width: 570px) {
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+@media screen and (max-width: 570px) {
   #ispbrain .functions .ul-check li {
     font-size: 16px;
     font-weight: 300;

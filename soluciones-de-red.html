@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="lib/icomoon/style.css">
   <link rel="stylesheet" href="repository/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="repository/icomoon/icomoon.css">
+  <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="lib/owlcarousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="library/css/mw.css">
 
   <!-- Interno CSS -->
@@ -132,8 +134,10 @@
               <div class="row align-items-center">
                 <div class="col-12 col-md-12 col-lg-6 mw-text">
                   <h2 style="color:#282c47">Modalidad SuP</h2>
-                  <p>SuP es Soporte under Proyect. Es un sistema que centra el trabajo en un proyecto plasmado en un documento.
-                    Se diagnostica o analiza el caso, se ofrece una propuesta con su respectivo costo. Solo pagará por el contenido del proyecto.</p>
+                  <p>SuP es Soporte under Proyect. Es un sistema que centra el trabajo en un proyecto plasmado en un
+                    documento.
+                    Se diagnostica o analiza el caso, se ofrece una propuesta con su respectivo costo. Solo pagará por
+                    el contenido del proyecto.</p>
                   <a href="#">Más información</a>
                 </div>
                 <div class="col-6 d-none d-lg-block mw-img">
@@ -149,20 +153,63 @@
 
   </section>
 
+  <!-- ======= Counter ======= -->
+
+  <div class="counters p-3 counter-no-index mb-5">
+    <div class="container text-center">
+      <div class="row no-gutters">
+
+        <div class="col-12 col-sm-3">
+          <img src="library/image/index/counter/router.png" class="img-fluid" alt="Responsive image">
+          <div>
+            <span class='numscroller' data-min='1' data-max='356' data-delay='5' data-increment='10'>356</span>
+          </div>
+          <h3 class="title">Router</h3>
+        </div>
+
+        <div class="col-12 col-sm-3">
+          <img src="library/image/index/counter/servidor.png" class="img-fluid" alt="Responsive image">
+          <div>
+            <span class='numscroller' data-min='1' data-max='252' data-delay='5' data-increment='10'>252</span>
+          </div>
+          <h3>Switches</h3>
+        </div>
+
+        <div class="col-12 col-sm-3">
+          <img src="library/image/index/counter/switch.png" class="img-fluid" alt="Responsive image">
+          <div>
+            <span class='numscroller' data-min='1' data-max='120' data-delay='5' data-increment='10'>120</span>
+          </div>
+          <h3>Servidores</h3>
+        </div>
+
+        <div class="col-12 col-sm-3">
+          <img src="library/image/index/counter/user.png" class="img-fluid" alt="Responsive image">
+          <div>
+            <span class='numscroller' data-min='1' data-max='44645' data-delay='5' data-increment='200'>44645</span>
+          </div>
+          <h3>Clientes finales</h3>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
   <!----------------------
       |Sod y Sup
       ----------------------->
 
   <section class="services">
 
-    <div class="container text-center">
+    <div class="container text-center mb-5">
 
       <h2 class="services-title">Servicios</h2>
 
-      <div class="row py-5 align-items-center">
+      <div class="row py-5">
 
         <div class="col-12 col-md-4">
-          <img class="icon" src="image/icons/elastico.svg" alt="">
+          <object type="image/svg+xml" data="image/icons/elastico.svg" class="icon" viewbox="0 0 50 50"></object>
           <h3>Servicio elástico</h3>
           <ul class="ul-check list-unstyled">
             <li>Soporte técnico bajo demanda (SoD).</li>
@@ -171,7 +218,7 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <img class="icon" src="image/icons/servicio-al-cliente.svg" alt="">
+          <object type="image/svg+xml" data="image/icons/servicio-al-cliente.svg" class="icon"></object>
           <h3>Soporte técnico</h3>
           <ul class="ul-check list-unstyled">
             <li>Soporte técnico ante fallos.</li>
@@ -184,7 +231,7 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <img class="icon" src="image/icons/health.svg" alt="">
+          <object type="image/svg+xml" data="image/icons/health.svg" class="icon"></object>
           <h3>Documentación y monitoreo</h3>
           <ul class="ul-check list-unstyled">
             <li>Mapa de red en The Dude.</li>
@@ -195,7 +242,17 @@
 
       </div>
     </div>
-
+    <div class="container">
+      <div class="owl-carousel integration-carousel">
+        <img src="image/integraciones/afip.png" alt="">
+        <img src="image/integraciones/cobrodigital.png" alt="">
+        <img src="image/integraciones/cuentadigital.png" alt="">
+        <img src="image/integraciones/dropbox.png" alt="">
+        <img src="image/integraciones/mercadopago.png" alt="">
+        <img src="image/integraciones/mikrotik.png" alt="">
+        <img src="image/integraciones/smsmasivo.png" alt="">
+      </div>
+    </div>
   </section>
 
   <footer class="footer border-top">
@@ -261,6 +318,8 @@
   <script src="lib/bootstrap/bootstrap.min.js"></script>
   <script src="lib/particles/particles.min.js"></script>
   <script src="lib/particles/app.js"></script>
+  <script src="repository/counter/numscroller-1.0.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="library/js/mw.js"></script>
 
   <!-- Interno JS -->

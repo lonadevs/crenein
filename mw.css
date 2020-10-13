@@ -41,13 +41,13 @@
 
 body {
   color: #666666 !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 14px !important;
   font-weight: normal !important;
   line-height: 1.8 !important;
 }
 
-.main{
+.main {
   background-image: url(image/empresa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,54 +68,55 @@ h4,
 h5,
 h6 {
   letter-spacing: 0;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: normal;
   position: relative;
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: normal;
   color: #282c47;
-  margin: 0
+  margin: 0;
 }
 
 h1 {
-     font-size: 24px
+  font-size: 24px;
 }
 
 h2 {
-     font-size: 22px
+  font-size: 22px;
 }
 
 h3 {
-     font-size: 18px
+  font-size: 18px;
 }
 
 h4 {
-     font-size: 16px
+  font-size: 16px;
 }
 
 h5 {
-     font-size: 14px
+  font-size: 14px;
 }
 
 h6 {
-     font-size: 13px
+  font-size: 13px;
 }
 
 p {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 300;
   font-size: 15px;
   line-height: 24px;
 }
 
-ul,li {
+ul,
+li {
   list-style: none;
 }
 
 a {
   color: #222222;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   outline: none !important;
   transition: all 0.4s;
@@ -137,8 +138,12 @@ a {
   background: #0f479a;
 }
 
+.counters.counter-no-index {
+  background-color: #4e95ff;
+}
+
 .counters img {
-	width: 70px;
+  width: 70px;
 }
 
 .counters span {
@@ -190,7 +195,7 @@ a {
 
 .site-navbar ul li a:hover {
   color: #c1c1c1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .site-navbar ul li a.active {
@@ -203,26 +208,26 @@ a {
   border: none;
   cursor: pointer;
   display: none;
-  padding: 10px;  
+  padding: 10px;
 }
 
-.nav-toggler span, 
-.nav-toggler span:before, 
+.nav-toggler span,
+.nav-toggler span:before,
 .nav-toggler span:after {
   background-color: #888;
   display: block;
   height: 3px;
-  transition: .3s;
+  transition: 0.3s;
   width: 20px;
 }
 
 .nav-toggler span:before {
-  content: '';
+  content: "";
   transform: translateY(-9px);
 }
 
 .nav-toggler span:after {
-  content: '';
+  content: "";
   transform: translateY(6px);
 }
 
@@ -240,8 +245,7 @@ a {
 
 /* ---------- Navbar Mobile ---------- */
 @media screen and (max-width: 767px) {
-  
-  .nav-toggler{
+  .nav-toggler {
     display: block;
   }
 
@@ -259,8 +263,8 @@ a {
     overflow: hidden;
     position: absolute;
     top: 80px;
-    transition: .3s;
-    width: 100%; 
+    transition: 0.3s;
+    width: 100%;
   }
 
   .site-navbar ul li {
@@ -295,7 +299,7 @@ a {
   margin-top: 0px;
 }
 
-.count-particles{
+.count-particles {
   position: absolute;
   top: 0;
   left: 0;
@@ -392,7 +396,7 @@ a {
 .pricing .pricing-title::after {
   background-color: #035492;
   border-radius: 100px;
-  content: '';
+  content: "";
   height: 7px;
   left: 0;
   margin: 0 auto;
@@ -457,9 +461,9 @@ a {
   color: #666666;
   font-size: 16px;
   margin-left: 18px;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   width: min-content;
-  display: inline!important;
+  display: inline !important;
   position: absolute;
   top: 8px;
 }
@@ -505,7 +509,7 @@ a {
 }
 
 .soporte .mw-item .content-item:hover {
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.3) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
   transition: 0.8s;
 }
 
@@ -551,6 +555,10 @@ a {
   text-align: left;
 }
 
+.services object.icon {
+  width: 90px;
+}
+
 /* --------------------
 |Team
 -------------------- */
@@ -576,7 +584,6 @@ a {
   background-position: top;
 }
 
-
 /* --------------------
 |Isp
 -------------------- */
@@ -596,7 +603,7 @@ a {
 .functions-title::after,
 .integration-title::after,
 .pricing .pricing-title::after {
-  background-color: #C7564B;
+  background-color: #c7564b;
 }
 
 .functions h3 {
@@ -604,7 +611,7 @@ a {
 }
 
 .functions .ul-check li::before {
-  color: #C7564B;
+  color: #c7564b;
 }
 
 .functions li {
@@ -624,18 +631,16 @@ a {
   height: 12px;
   margin: 0 7px;
   width: 12px;
-  
 }
 
 .functions .owl-dot.active,
 .integrations .owl-dot.active {
-  background-color: #C7564B !important;
+  background-color: #c7564b !important;
 }
 
 /* --------------------
 |Integraciones
 -------------------- */
-
 
 /* Demo - precios */
 
@@ -653,7 +658,7 @@ a {
 }
 
 .content-dp .btn-1 {
-  background-color: #C7564B;
+  background-color: #c7564b;
 }
 
 .content-dp .btn-1 .round {
@@ -748,7 +753,7 @@ a {
 }
 .pricing .cd-filter::after {
   /* small arrow icon */
-  content: '';
+  content: "";
   position: absolute;
   right: 14px;
   top: 50%;
@@ -772,7 +777,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: #FFF;
+  background: #fff;
   border-radius: 0.25em;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -784,7 +789,7 @@ a {
   /* this way the placehodler is alway visible */
 }
 .pricing .cd-filter li:last-child a {
-  border-radius: 0 0 .25em .25em;
+  border-radius: 0 0 0.25em 0.25em;
 }
 .pricing .cd-filter a {
   display: block;
@@ -799,10 +804,10 @@ a {
 }
 .pricing .cd-filter a.selected {
   background: #282c47;
-  color: #FFF;
+  color: #fff;
 }
 .pricing .cd-filter a:hover {
-  color: #C7564B;
+  color: #c7564b;
 }
 
 .pricing .cd-filter.is-open::after {
@@ -817,7 +822,7 @@ a {
   display: block;
 }
 .pricing .cd-filter.is-open .placeholder a {
-  opacity: .4;
+  opacity: 0.4;
   /* reduces the opacity of the placeholder on mobile when the menu is open */
 }
 @media only screen and (min-width: 768px) {
@@ -836,7 +841,7 @@ a {
   }
   .pricing .cd-filter li {
     display: inline-block;
-    margin: 0 .4em;
+    margin: 0 0.4em;
   }
   .pricing .cd-filter li:first-child {
     display: inline-block;
@@ -1083,14 +1088,14 @@ xkeyframes
   margin-bottom: 30px;
   padding: 15px 0;
   position: relative;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .pricing .card:after {
-  background-color: #C7564B;
+  background-color: #c7564b;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  content: '';
+  content: "";
   height: 5px;
   left: 0;
   position: absolute;
@@ -1192,7 +1197,7 @@ xkeyframes
 }
 
 .demo a:hover {
-  color: #C7564B;
+  color: #c7564b;
 }
 
 /* Footer */

@@ -638,6 +638,20 @@ a {
   background-color: #c7564b !important;
 }
 
+.features-cut {
+  background-color: #035492;
+  background-image: url(library/image/index/barra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 20px;
+}
+
+.features-cut p {
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
 /* --------------------
 |Integraciones
 -------------------- */

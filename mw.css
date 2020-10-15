@@ -658,8 +658,41 @@ a {
 
 /* Demo - precios */
 
-.content-dp {
+.content-dp .col-content {
   background: #f5f8fd;
+  padding: 100px 20px;
+  --initialTextColor: #fff;
+  --slideTextColor: #272838;
+
+  --initialBgColor: #272838;
+  --slideBgColor: #fff;
+
+  color: var(--initialTextColor);
+
+  background-image: linear-gradient(
+    90deg,
+    var(--initialBgColor) 0%,
+    var(--initialBgColor) 50%,
+    var(--slideBgColor) 50%,
+    var(--slideBgColor) 100%
+  );
+  background-size: 200%;
+  transition: background-position 0.3s cubic-bezier(0.47, 0.1, 1, 0.63), color 0.2s linear;
+  transition-delay: 0s, 0.15s;
+}
+
+.content-dp .col-content h2{
+  color: #fff;
+}
+
+.content-dp .col-content:hover h2 {
+  color: inherit;
+}
+
+.content-dp .col-content:hover {
+  color: var(--slideTextColor);
+  cursor: pointer;
+  background-position: -99% 100%;
 }
 
 .content-dp h2 {

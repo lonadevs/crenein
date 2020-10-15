@@ -658,6 +658,10 @@ a {
 
 /* Demo - precios */
 
+.content-dp .row-content {
+  margin-left: 0;
+  margin-right: 0;
+}
 .content-dp .col-content {
   background: #f5f8fd;
   padding: 100px 20px;
@@ -692,7 +696,7 @@ a {
 .content-dp .col-content:hover {
   color: var(--slideTextColor);
   cursor: pointer;
-  background-position: -99% 100%;
+  background-position: -100% 100%;
 }
 
 .content-dp h2 {
